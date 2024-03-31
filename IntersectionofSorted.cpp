@@ -15,7 +15,7 @@ vector<int>Intersection(vector<int>a, vector<int>b){
                 vist[j] = 1;
                 break;
             }
-            if(b[j] > a[j]) break;
+            if(b[j] > a[i]) break;
         }
     }
     return ans;
